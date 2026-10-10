@@ -5,14 +5,14 @@
 1. **Variáveis e tipos de dados**
    - [📋 Issue](https://github.com/alexandre-wayss/engineering-roadmap/issues/1)
    - [📝 Anotação](../02-anotacoes/java/Vari%C3%A1veis%20e%20tipos%20de%20dados.md)
-   - [💻 Exercícios](https://github.com/alexandre-wayss/java-exercises/tree/main/01-fundamentos/variaveis)
-   
-2. Operadores
-3. Estruturas condicionais
-4. Estruturas de repetição
-5. Métodos
-6. Arrays
-7. Strings
+   - [💻 Exercícios](https://github.com/alexandre-wayss/java-exercises/tree/main/01-fundamentos/variáveis/CompraProduto.java)
+
+1. Operadores
+2. Estruturas condicionais
+3. Estruturas de repetição
+4. Métodos
+5. Arrays
+6. Strings
 
 ## 2. Orientação a Objetos
 1. Classes e objetos
