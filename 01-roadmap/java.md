@@ -4,7 +4,7 @@
 
 1. **Variáveis e tipos de dados**
    - [📋 Issue](https://github.com/alexandre-wayss/engineering-roadmap/issues/1)
-   - [📝 Anotação](☕%20Variáveis%20e%20Tipos%20de%20Dados%20—%20Java.md)
+   - [📝 Anotação](../02-anotacoes/java/%E2%98%95%20Vari%C3%A1veis%20e%20Tipos%20de%20Dados%20%E2%80%94%20Java.md)
    - [💻 Exercícios](https://github.com/alexandre-wayss/java-exercises/tree/main/01-fundamentos/variáveis/CompraProduto.java)
 
 1. Operadores
