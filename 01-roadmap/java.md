@@ -7,12 +7,14 @@
    - [📝 Anotação](../02-anotacoes/java/%E2%98%95%20Vari%C3%A1veis%20e%20Tipos%20de%20Dados%20%E2%80%94%20Java.md)
    - [💻 Exercícios](https://github.com/alexandre-wayss/java-exercises/tree/main/01-fundamentos/variáveis/CompraProduto.java)
 
-1. Operadores
-2. Estruturas condicionais
-3. Estruturas de repetição
-4. Métodos
-5. Arrays
-6. Strings
+2. **Operadores**
+   - [📋 Issue](https://github.com/alexandre-wayss/engineering-roadmap/issues/2)
+   - [📝 Anotação](../02-anotacoes/java/Operadores.md)
+3. Estruturas condicionais
+4. Estruturas de repetição
+5. Métodos
+6. Arrays
+7. Strings
 
 ## 2. Orientação a Objetos
 1. Classes e objetos
