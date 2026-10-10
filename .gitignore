@@ -1,0 +1,9 @@
+# Obsidian
+.obsidian/
+
+# macOS
+.DS_Store
+.AppleDouble
+
+# Lixeira do Obsidian
+.trash/
