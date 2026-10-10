@@ -1,0 +1,87 @@
+name: "📚 Estudo / Implementação"
+description: "Registrar um novo objetivo de aprendizado"
+title: "[Roadmap] "
+
+body:
+  - type: dropdown
+    id: tipo
+    attributes:
+      label: "📌 Tipo de atividade"
+      options:
+        - Estudo teórico
+        - Exercício prático
+        - Implementação
+        - Projeto
+        - Revisão
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: "🎯 Área de estudo"
+      options:
+        - Java
+        - Spring Boot
+        - Banco de Dados
+        - Linux
+        - Redes
+        - Docker
+        - AWS / Cloud
+        - Terraform
+        - CI/CD
+        - SRE / Observabilidade
+        - Kubernetes
+        - Outros
+    validations:
+      required: true
+
+  - type: textarea
+    id: objetivo
+    attributes:
+      label: "🎯 Objetivo"
+      description: "O que pretendo aprender ou implementar?"
+      placeholder: "Ex: Compreender classes e objetos em Java."
+    validations:
+      required: true
+
+  - type: textarea
+    id: conteudos
+    attributes:
+      label: "📖 Conteúdos e tarefas"
+      description: "Liste o que precisa estudar e praticar."
+      value: |
+        - [ ] Estudar os conceitos
+        - [ ] Fazer exercícios
+        - [ ] Implementar um exemplo
+        - [ ] Testar o funcionamento
+        - [ ] Revisar o aprendizado
+    validations:
+      required: true
+
+  - type: textarea
+    id: pratica
+    attributes:
+      label: "🛠️ Implementação prática"
+      description: "Como vou aplicar esse conhecimento?"
+      placeholder: "Ex: Criar uma classe Usuario com atributos e métodos."
+
+  - type: textarea
+    id: evidencias
+    attributes:
+      label: "🔗 Projetos e evidências"
+      description: "Adicione links para repositórios, commits ou Pull Requests."
+      placeholder: |
+        Repositório:
+        Código:
+        Pull Request:
+
+  - type: textarea
+    id: aprendizado
+    attributes:
+      label: "🧠 Aprendizados e dificuldades"
+      description: "Preencha durante ou depois dos estudos."
+      placeholder: |
+        O que aprendi:
+        Dificuldades:
+        O que preciso revisar:
