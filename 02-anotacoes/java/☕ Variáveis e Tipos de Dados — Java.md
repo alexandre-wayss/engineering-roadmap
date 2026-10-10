@@ -42,24 +42,52 @@ scanner.close();
 
 ## 4. Conversão de tipos
 
-### String → int
+É o processo de transformar um dado de um tipo em outro, sendo divididas em tipos primitivos (implicitas e explicitas) e conversões de texto/objetos.
+
+### Implicita - ocorre automaticamente
+Quando é atribuido um tipo menor a um tipo maior, em casos que não perde dados ou precisão
+- Ordem: `byte` → `short` → `int` → `long` → `float` → `double`
 
 ```java
-String numero = "10";
-int quantidade = Integer.parseInt(numero);
+int inteiro = 100;
+double decimal = inteiro; // Automático: decimal vira 100.0
+
 ```
 
-### Casting
+### Explicita (Narrowing / casting)
+Quando você força manualmente um tipo maior a entrar em um menor de forma ciente.
 
+- Trunca decimal 
 ```java
-double preco = 19.90;
-int valorInteiro = (int) preco;
+double valor = 9.99;
+int truncado = (int) valor; // Vira 9
+
 ```
 
-O casting para int descarta a parte decimal.
+- Estouro de capacidade - Overflow 
+```java
+int numeroGrande = 130;
+byte pequeno = (byte) numeroGrande; // Vira -126 (byte só vai de -128 a 127)
 
-## 5. Saída formatada
+```
 
+### Conversões com String
+
+- String para número (parse)
+```java
+String texto = "42";
+int numero = Integer.parseInt(texto);
+double preco = Double.parseDouble("19.90");
+
+```
+- Número para String
+```java
+int valor = 10;
+String txt1 = String.valueOf(valor); // Recomendado
+String txt2 = Integer.toString(valor);
+
+```
+## 5. Formatar saída com printf
 O printf permite exibir informações formatadas.
 
 ```java
@@ -73,4 +101,30 @@ System.out.printf("Total: R$ %.2f%n", 350.0);
 | %.2f   | Decimal com 2 casas |
 | %n     | Nova linha          |
 
+## String
 
+* No java, string é um objeto que representa uma sequência imutável de caracteres, sendo então uma classe e não um tipo primitivo.
+
+```java
+String nome = "Java";
+nome.toUpperCase(); // Não altera 'nome'
+nome = nome.toUpperCase(); // Agora a variável aponta para o novo objeto "JAVA"
+
+```
+- String Constant Pool (pool de string), a JVM armazena literais em uma área especial fazendo com que strings com mesmo texto reaproveitem o endereço de memoria
+
+```java
+String a = "Oi";
+String b = "Oi"; // Aponta para a mesma referência que 'a'
+```
+
+- Usar .equals() para comparar Strings pois " == " compara o endereço de memoria. 
+
+### Métodos comuns:
+- length() - para pegar tamanho do texto
+- toUpperCase() / toLowerCase() - converter para maiuscula ou minuscula
+- charAt(int index) - retorna o caracter que está na posição do index
+- contains("texto") - retorna true se tiver o trecho
+- replace("antigo", "novo") - substitui o antigo pelo novo quando aparecer a palavra
+- trim() / strip() - remove espaços em branco do inicio e do final
+- split(",") - quebra o texto em um array de partes menores, nesse caso quando encontra uma virgula ele separa em um array.
