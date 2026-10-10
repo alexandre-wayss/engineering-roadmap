@@ -10,6 +10,7 @@
 2. **Operadores**
    - [📋 Issue](https://github.com/alexandre-wayss/engineering-roadmap/issues/2)
    - [📝 Anotação](../02-anotacoes/java/Operadores.md)
+   - [💻 Exercícios](https://github.com/alexandre-wayss/java-exercises/tree/main/01-fundamentos/Operadores/CalculoDesconto.java)
 3. Estruturas condicionais
 4. Estruturas de repetição
 5. Métodos
