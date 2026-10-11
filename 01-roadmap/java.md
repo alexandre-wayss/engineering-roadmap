@@ -18,6 +18,7 @@
 4. **Estruturas de repetição**
    - [📋 Issue](https://github.com/alexandre-wayss/engineering-roadmap/issues/4)
    - [📝 Anotação](../02-anotacoes/java/Estruturas%20de%20repeti%C3%A7%C3%A3o.md)
+   - [💻 Exercícios](https://github.com/alexandre-wayss/java-exercises/tree/main/01-fundamentos/Repeti%C3%A7%C3%A3o/SimuladorFinanceiro.java)
 5. Métodos
 6. Arrays
 7. Strings
