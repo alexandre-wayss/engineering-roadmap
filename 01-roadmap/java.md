@@ -11,11 +11,18 @@
    - [📋 Issue](https://github.com/alexandre-wayss/engineering-roadmap/issues/2)
    - [📝 Anotação](../02-anotacoes/java/Operadores.md)
    - [💻 Exercícios](https://github.com/alexandre-wayss/java-exercises/tree/main/01-fundamentos/Operadores/CalculoDesconto.java)
-3. Estruturas condicionais
+3. **Estruturas condicionais**
+   - [📋 Issue](https://github.com/alexandre-wayss/engineering-roadmap/issues/3)
+   - [📝 Anotação](../02-anotacoes/java/Condicionais.md)
+   - [💻 Exercícios](https://github.com/alexandre-wayss/java-exercises/tree/main/01-fundamentos/Condicionais/TerminalBancario.java)
 4. Estruturas de repetição
 5. Métodos
 6. Arrays
 7. Strings
+
+### 🏆 Projeto Integrador — Fundamentos
+- **Objetivo:** Consolidar todos os conceitos de Fundamentos (variáveis, operadores, condicionais, repetição, métodos, arrays e strings) em uma aplicação CLI completa antes de iniciar Orientação a Objetos.
+- ⏳ *Pendente (após concluir o tópico de Strings)*
 
 ## 2. Orientação a Objetos
 1. Classes e objetos
