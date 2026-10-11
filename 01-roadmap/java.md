@@ -15,7 +15,9 @@
    - [📋 Issue](https://github.com/alexandre-wayss/engineering-roadmap/issues/3)
    - [📝 Anotação](../02-anotacoes/java/Condicionais.md)
    - [💻 Exercícios](https://github.com/alexandre-wayss/java-exercises/tree/main/01-fundamentos/Condicionais/TerminalBancario.java)
-4. Estruturas de repetição
+4. **Estruturas de repetição**
+   - [📋 Issue](https://github.com/alexandre-wayss/engineering-roadmap/issues/4)
+   - [📝 Anotação](../02-anotacoes/java/Estruturas%20de%20repeti%C3%A7%C3%A3o.md)
 5. Métodos
 6. Arrays
 7. Strings
