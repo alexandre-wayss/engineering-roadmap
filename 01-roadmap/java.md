@@ -19,8 +19,12 @@
    - [📋 Issue](https://github.com/alexandre-wayss/engineering-roadmap/issues/4)
    - [📝 Anotação](../02-anotacoes/java/Estruturas%20de%20repeti%C3%A7%C3%A3o.md)
    - [💻 Exercícios](https://github.com/alexandre-wayss/java-exercises/tree/main/01-fundamentos/Repeti%C3%A7%C3%A3o/SimuladorFinanceiro.java)
-5. Métodos
-6. Arrays
+5. **Métodos**
+   - [📋 Issue](https://github.com/alexandre-wayss/engineering-roadmap/issues/5)
+   - [📝 Anotação](../02-anotacoes/java/M%C3%A9todos.md)
+   - [💻 Exercícios](https://github.com/alexandre-wayss/java-exercises/tree/main/01-fundamentos/Metodos/CalculoFolha.java)
+6. **Arrays**
+   - [📋 Issue](https://github.com/alexandre-wayss/engineering-roadmap/issues/6)
 7. Strings
 
 ### 🏆 Projeto Integrador — Fundamentos
